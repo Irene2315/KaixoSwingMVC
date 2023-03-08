@@ -61,6 +61,7 @@ public class ControladorProducto implements ActionListener, MouseListener {
 		
 		if (e.getSource() == formularioProducto.btnLimpiar) {
 			formularioProducto.limpiar();
+
 		}
 		
 		if (e.getSource() == formularioProducto.btnEliminar) {
